@@ -19,6 +19,7 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -37,7 +38,6 @@ body{
 }
 
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -80,6 +80,7 @@ body{
 section {
     min-height: 100vh;
     padding: 10rem 9% 10rem;
+    scroll-margin-top: 60px;
 }
 
 .home {
@@ -352,7 +353,7 @@ span {
 .qualification-section-info {
     background: white;
     color: black;
-    height: 250px;
+    height: 300px;
     width: 750px;
     border-radius: 4rem;
     cursor: pointer;
